@@ -16,5 +16,10 @@ namespace GreetingsAppWinForm
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = $"Welcome {txtNameHere.Text}";
+        }
     }
 }
